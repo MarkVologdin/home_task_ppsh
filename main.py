@@ -1,17 +1,28 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(10)
+def first_task():
+    word_1 = input()
+    word_2 = input()
+    word_3 = input()
+    print(word_1 + word_2 + word_3)
 
 
-# Press the green button in the gutter to run the script.
+def second_task():
+    a = int(input())
+    b = int(input())
+
+    result = 2 ** 8 * a ** 8 - 2 ** 4 * a * 4 + 2 ** 2 * a ** 2 - 2 * b + 0.5 * b ** 0.5 + a * b ** (b + a) / 2
+    print(result)
+
+
+def third_task():
+    a = input()
+    b = input()
+    print(a + b, end='!')
+
+
+def sixth_task():
+    count_santimetr = int(input())
+    print(count_santimetr // 100000)
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    sixth_task()

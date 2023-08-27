@@ -23,6 +23,9 @@ def sixth_task():
     count_santimetr = int(input())
     print(count_santimetr // 100000)
 
+def standart_input():
+    a = list(map(int, input().split())) # input numbers entered through space
+    print(a)
 
 if __name__ == '__main__':
-    sixth_task()
+    standart_input()
